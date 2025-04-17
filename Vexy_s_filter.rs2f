@@ -4895,7 +4895,7 @@ type: number
 label: Nature rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_NATURE_RUNE_MIN_QUANTITY 1
+#define VAR_NATURE_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
