@@ -9666,7 +9666,7 @@ label: Monkfish custom style
 group: Food style
 exampleItem: Monkfish
 */
-#define VAR_MONKFISH_CUSTOMSTYLE 
+#define VAR_MONKFISH_CUSTOMSTYLE textColor = "#ffffffff";backgroundColor = "#50b7977c";borderColor = "#ffb88e7d";
 
 /*@ define:input:food
 type: style
@@ -9682,7 +9682,7 @@ label: Shark custom style
 group: Food style
 exampleItem: Shark
 */
-#define VAR_SHARK_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50b7977c";borderColor = "#FFb7977c";textAccentColor = "#FF000000";menuTextColor = "#FFb7977c";
+#define VAR_SHARK_CUSTOMSTYLE textColor = "#FFFFFFFF";backgroundColor = "#50b7977c";borderColor = "#ffb88e7d";textAccentColor = "#FF000000";menuTextColor = "#FFb7977c";
 
 /*@ define:input:food
 type: style
@@ -9690,7 +9690,7 @@ label: Sea turtle custom style
 group: Food style
 exampleItem: Sea turtle
 */
-#define VAR_SEA_TURTLE_CUSTOMSTYLE 
+#define VAR_SEA_TURTLE_CUSTOMSTYLE textColor = "#ffffffff";backgroundColor = "#50b7977c";borderColor = "#FFb7977c";
 
 /*@ define:input:food
 type: style
