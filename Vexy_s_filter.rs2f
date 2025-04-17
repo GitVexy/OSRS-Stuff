@@ -3908,7 +3908,7 @@ description: |
 type: stringlist
 label: List of alchables
 */
-#define VAR_ALCHS_ITEM_LIST ["Adamant platebody","Air battlestaff","Dragon battleaxe","Dragon dagger","Dragon halberd","Dragon longsword","Dragon mace","Dragon med helm","Dragon platelegs","Dragon plateskirt","Dragon scimitar","Earth battlestaff","Fire battlestaff","Lava battlestaff","Mystic air staff","Mystic earth staff","Mystic fire staff","Mystic lava staff","Mystic robe bottom","Mystic robe top","Mystic water staff","Onyx dragon bolts (e)","Rune 2h sword","Rune battleaxe","Rune chainbody","Rune full helm","Rune halberd","Rune hasta","Rune kiteshield","Rune longsword","Rune med helm","Rune pickaxe","Rune platebody","Rune platelegs","Rune plateskirt","Rune scimitar","Rune spear","Rune sq shield","Rune sword","Runite crossbow (u)","Runite limbs","Water battlestaff"]
+#define VAR_ALCHS_ITEM_LIST []
 
 /*@ define:input:alchs
 type: boolean
@@ -4007,7 +4007,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_STANDARD_ARROWS_HIDE ["Bronze*","Iron*","Steel*","Mithril*","Adamant*","Rune*"]
+#define VAR_AMMO_STANDARD_ARROWS_HIDE []
 
 apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
     hidden = true;
@@ -4017,7 +4017,7 @@ type: number
 label: Standard Arrows minimum value
 group: Arrows
 */
-#define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 500
+#define VAR_AMMO_STANDARD_ARROWS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && value:<VAR_AMMO_STANDARD_ARROWS_MIN_VALUE) {
     hidden = true;
@@ -4067,7 +4067,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BRUTAL_ARROWS_HIDE ["Bronze brutal","Iron brutal","Steel brutal","Black brutal","Mithril brutal"]
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE []
 
 apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
     hidden = true;
@@ -4077,7 +4077,7 @@ type: number
 label: Brutal Arrows minimum value
 group: Arrows
 */
-#define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 500
+#define VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && value:<VAR_AMMO_BRUTAL_ARROWS_MIN_VALUE) {
     hidden = true;
@@ -4112,7 +4112,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_SPECIAL_ARROWS_HIDE ["Training Arrow","Ogre Arrow","Ice Arrow","Broad Arrow"]
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE []
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
     hidden = true;
@@ -4122,7 +4122,7 @@ type: number
 label: Special Arrows minimum value
 group: Arrows
 */
-#define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 500
+#define VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && value:<VAR_AMMO_SPECIAL_ARROWS_MIN_VALUE) {
     hidden = true;
@@ -4186,7 +4186,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_DARTS_HIDE ["Bronze dart*","Iron dart*","Steel dart*","Black dart*","Mithril dart*","Adamant dart*"]
+#define VAR_AMMO_DARTS_HIDE []
 
 apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
     hidden = true;
@@ -4196,7 +4196,7 @@ type: number
 label: Darts minimum value
 group: Darts
 */
-#define VAR_AMMO_DARTS_MIN_VALUE 500
+#define VAR_AMMO_DARTS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_DARTS_LIST && value:<VAR_AMMO_DARTS_MIN_VALUE) {
     hidden = true;
@@ -4250,7 +4250,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_JAVELINS_HIDE ["Bronze javelin*","Iron javelin*","Steel javelin*","Mithril javelin*","Adamant javelin*","Rune javelin*"]
+#define VAR_AMMO_JAVELINS_HIDE []
 
 apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
     hidden = true;
@@ -4260,7 +4260,7 @@ type: number
 label: Javelins minimum value
 group: Javelins
 */
-#define VAR_AMMO_JAVELINS_MIN_VALUE 500
+#define VAR_AMMO_JAVELINS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_JAVELINS_LIST && value:<VAR_AMMO_JAVELINS_MIN_VALUE) {
     hidden = true;
@@ -4319,7 +4319,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BOLTS_HIDE ["Bronze bolts*","Blurite bolts*","Silver bolts*","Iron bolts*","Steel bolts*","Mithril bolts*"]
+#define VAR_AMMO_BOLTS_HIDE []
 
 apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
     hidden = true;
@@ -4329,7 +4329,7 @@ type: number
 label: Bolts minimum value
 group: Bolts
 */
-#define VAR_AMMO_BOLTS_MIN_VALUE 500
+#define VAR_AMMO_BOLTS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_BOLTS_LIST && value:<VAR_AMMO_BOLTS_MIN_VALUE) {
     hidden = true;
@@ -4404,7 +4404,7 @@ type: number
 label: Enchanted bolts minimum value
 group: Bolts
 */
-#define VAR_AMMO_BOLTS_E_MIN_VALUE 500
+#define VAR_AMMO_BOLTS_E_MIN_VALUE 0
 
 apply (name:CONST_AMMO_BOLTS_E_LIST && value:<VAR_AMMO_BOLTS_E_MIN_VALUE) {
     hidden = true;
@@ -4479,7 +4479,7 @@ type: number
 label: Dragon enchanted bolts minimum value
 group: Bolts
 */
-#define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 500
+#define VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE 0
 
 apply (name:CONST_AMMO_DRAGON_BOLTS_E_LIST && value:<VAR_AMMO_DRAGON_BOLTS_E_MIN_VALUE) {
     hidden = true;
@@ -4544,7 +4544,7 @@ type: number
 label: Special bolts minimum value
 group: Bolts
 */
-#define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 500
+#define VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE 0
 
 apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && value:<VAR_AMMO_SPECIAL_BOLTS_MIN_VALUE) {
     hidden = true;
@@ -4839,154 +4839,154 @@ type: number
 label: Air rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_AIR_RUNE_MIN_QUANTITY 500
+#define VAR_AIR_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Water rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_WATER_RUNE_MIN_QUANTITY 500
+#define VAR_WATER_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Earth rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_EARTH_RUNE_MIN_QUANTITY 500
+#define VAR_EARTH_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Fire rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_FIRE_RUNE_MIN_QUANTITY 500
+#define VAR_FIRE_RUNE_MIN_QUANTITY 10
 
 /*@ define:input:runes
 type: number
 label: Mind rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_MIND_RUNE_MIN_QUANTITY 500
+#define VAR_MIND_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Body rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_BODY_RUNE_MIN_QUANTITY 500
+#define VAR_BODY_RUNE_MIN_QUANTITY 50
 
 /*@ define:input:runes
 type: number
 label: Cosmic rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_COSMIC_RUNE_MIN_QUANTITY 10
+#define VAR_COSMIC_RUNE_MIN_QUANTITY 5
 
 /*@ define:input:runes
 type: number
 label: Chaos rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_CHAOS_RUNE_MIN_QUANTITY 10
+#define VAR_CHAOS_RUNE_MIN_QUANTITY 5
 
 /*@ define:input:runes
 type: number
 label: Nature rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_NATURE_RUNE_MIN_QUANTITY 10
+#define VAR_NATURE_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Law rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_LAW_RUNE_MIN_QUANTITY 10
+#define VAR_LAW_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Death rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_DEATH_RUNE_MIN_QUANTITY 10
+#define VAR_DEATH_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Sunfire rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 10
+#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Astral rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_ASTRAL_RUNE_MIN_QUANTITY 10
+#define VAR_ASTRAL_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Blood rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_BLOOD_RUNE_MIN_QUANTITY 10
+#define VAR_BLOOD_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Soul rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_SOUL_RUNE_MIN_QUANTITY 10
+#define VAR_SOUL_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Wrath rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_WRATH_RUNE_MIN_QUANTITY 10
+#define VAR_WRATH_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Mist rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_MIST_RUNE_MIN_QUANTITY 50
+#define VAR_MIST_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Dust rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_DUST_RUNE_MIN_QUANTITY 50
+#define VAR_DUST_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Mud rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_MUD_RUNE_MIN_QUANTITY 50
+#define VAR_MUD_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Smoke rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_SMOKE_RUNE_MIN_QUANTITY 50
+#define VAR_SMOKE_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Steam rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_STEAM_RUNE_MIN_QUANTITY 50
+#define VAR_STEAM_RUNE_MIN_QUANTITY 1
 
 /*@ define:input:runes
 type: number
 label: Lava rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_LAVA_RUNE_MIN_QUANTITY 50
+#define VAR_LAVA_RUNE_MIN_QUANTITY 1
 
 
 // waiting on 1.6
@@ -5614,7 +5614,7 @@ enum: [
   "Karambwan vessel"
 ]
 */
-#define VAR_FISHING_EQUIPMENT_HIDE ["Small fishing net","Big fishing net","Fishing rod","Fly fishing rod","Harpoon","Lobster pot","Karambwan vessel"]
+#define VAR_FISHING_EQUIPMENT_HIDE []
 
 /*@ define:input:fishing
 type: enumlist
@@ -5631,7 +5631,7 @@ enum: [
   "Raw karambwanji"
 ]
 */
-#define VAR_FISHING_BAIT_HIDE ["Fishing bait","Feather","Stripy feather","King worm","Fish chunks"]
+#define VAR_FISHING_BAIT_HIDE []
 
 /*@ define:input:fishing
 type: enumlist
@@ -7110,42 +7110,42 @@ type: number
 label: Bronze bar minimum quantity
 group: Bar Filtering
 */
-#define VAR_BRONZE_BAR_MIN_QUANTITY 2
+#define VAR_BRONZE_BAR_MIN_QUANTITY 0
 
 /*@ define:input:bars
 type: number
 label: Iron bar minimum quantity
 group: Bar Filtering
 */
-#define VAR_IRON_BAR_MIN_QUANTITY 2
+#define VAR_IRON_BAR_MIN_QUANTITY 0
 
 /*@ define:input:bars
 type: number
 label: Silver bar minimum quantity
 group: Bar Filtering
 */
-#define VAR_SILVER_BAR_MIN_QUANTITY 2
+#define VAR_SILVER_BAR_MIN_QUANTITY 0
 
 /*@ define:input:bars
 type: number
 label: Steel bar minimum quantity
 group: Bar Filtering
 */
-#define VAR_STEEL_BAR_MIN_QUANTITY 2
+#define VAR_STEEL_BAR_MIN_QUANTITY 0
 
 /*@ define:input:bars
 type: number
 label: Gold bar minimum quantity
 group: Bar Filtering
 */
-#define VAR_GOLD_BAR_MIN_QUANTITY 2
+#define VAR_GOLD_BAR_MIN_QUANTITY 0
 
 /*@ define:input:bars
 type: number
 label: Mithril bar minimum quantity
 group: Bar Filtering
 */
-#define VAR_MITHRIL_BAR_MIN_QUANTITY 2
+#define VAR_MITHRIL_BAR_MIN_QUANTITY 0
 
 /*@ define:input:bars
 type: number
@@ -7421,7 +7421,7 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_HIDE ["*Tarromin","*Harralander"]
+#define VAR_HERBS_HIDE []
 
 /*@ define:input:herbs
 type: enumlist
@@ -7489,7 +7489,7 @@ enum: [
   }
 ]
 */
-#define VAR_HERBS_SHOW ["*Ranarr weed","*Huasca","*Snapdragon","*Torstol"]
+#define VAR_HERBS_SHOW ["*Ranarr weed","*Huasca","*Snapdragon","*Torstol","*Dwarf weed","*Lantadyme","*Cadantine","*Kwuarm","*Avantoe","*Irit leaf","*Toadflax"]
 
 
 /*@ define:input:herbs
@@ -8107,7 +8107,7 @@ enum: [
   "Snape grass seed"
 ]
 */
-#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE ["Potato seed","Onion seed","Cabbage seed","Tomato seed"]
+#define VAR_FARMING_SEEDS_ALLOTMENT_HIDE ["Potato seed","Onion seed","Cabbage seed","Tomato seed","Sweetcorn seed","Strawberry seed"]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8159,7 +8159,7 @@ enum: [
   "Wildblood seed"
 ]
 */
-#define VAR_FARMING_SEEDS_HOPS_HIDE ["Barley seed","Hammerstone seed","Asgarnian seed","Jute seed","Yanillian seed","Krandorian seed","Wildblood seed"]
+#define VAR_FARMING_SEEDS_HOPS_HIDE []
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8202,7 +8202,7 @@ enum: [
   "Dragonfruit seed"
 ]
 */
-#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE ["Apple seed","Banana seed","Orange seed","Curry seed","Pineapple seed"]
+#define VAR_FARMING_SEEDS_FRUIT_TREE_HIDE ["Pineapple seed"]
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8217,7 +8217,7 @@ enum: [
   "Redwood tree seed"
 ]
 */
-#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE ["Teak seed","Mahogany seed","Calquat tree seed"]
+#define VAR_FARMING_SEEDS_SPECIAL_TREE_HIDE []
 
 /*@ define:input:farming_seeds
 type: enumlist
@@ -8386,7 +8386,7 @@ enum: [
   "Aldarium"
 ]
 */
-#define VAR_SECONDARIES_HIDE ["Eye of newt","Volcanic ash","Chocolate dust"]
+#define VAR_SECONDARIES_HIDE []
 
 /*@ define:input:herblore_secondaries
 type: number
@@ -8621,7 +8621,7 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_HIDE ["Attack potion(*","Strength potion(*","Serum 207(*","Compost potion(*","Restore potion(*","Energy potion(*","Defence potion(*","Agility potion(*","Combat potion(*","Fishing potion(*","Hunter potion(*","Antidote+(*"]
+#define VAR_POTIONS_HIDE []
 
 /*@ define:input:potions
 type: enumlist
@@ -8829,7 +8829,7 @@ enum: [
   }
 ]
 */
-#define VAR_POTIONS_SHOW ["Anti-venom(*","Anti-venom+(*","Antidote++(*","Antifire potion(*","Bastion potion(*","Battlemage potion(*","Divine bastion potion(*","Divine battlemage potion(*","Divine magic potion(*","Divine ranging potion(*","Divine super attack potion(*","Divine super combat potion(*","Divine super defence potion(*","Divine super strength potion(*","Extended anti-venom+(*","Extended antifire(*","Extended super antifire(*","Forgotten brew(*","Goading potion(*","Menaphite remedy(*","Prayer regeneration potion(*","Ranging potion(*","Sanfew serum(*","Saradomin brew(*","Stamina potion(*","Super antifire potion(*","Super combat potion(*","Super restore(*"]
+#define VAR_POTIONS_SHOW ["Anti-venom(*","Anti-venom+(*","Antidote++(*","Antifire potion(*","Bastion potion(*","Battlemage potion(*","Divine bastion potion(*","Divine battlemage potion(*","Divine magic potion(*","Divine ranging potion(*","Divine super attack potion(*","Divine super combat potion(*","Divine super defence potion(*","Divine super strength potion(*","Extended anti-venom+(*","Extended antifire(*","Extended super antifire(*","Forgotten brew(*","Goading potion(*","Menaphite remedy(*","Prayer regeneration potion(*","Ranging potion(*","Sanfew serum(*","Saradomin brew(*","Stamina potion(*","Super antifire potion(*","Super combat potion(*","Super restore(*","Prayer potion(*","Super attack(*","Superantipoison(*","Fishing potion(*","Super energy(*","Hunter potion(*","Super strength(*","Super defence(*","Antidote+(*","Magic potion(*","Zamorak brew(*","Ancient brew(*"]
 
 
 
@@ -9411,7 +9411,7 @@ enum: [
   "Cooked moonlight antelope"
 ]
 */
-#define VAR_FOOD_HUNTER_FOODS_HIDE ["Cooked wild kebbit","Cooked larupia","Cooked barb-tailed kebbit","Cooked graahk"]
+#define VAR_FOOD_HUNTER_FOODS_HIDE []
 
 /*@ define:input:food
 type: enumlist
@@ -9445,7 +9445,7 @@ enum: [
   "Dark crab"
 ]
 */
-#define VAR_FOOD_FISH_FOODS_HIDE ["Shrimp","Sardine","Herring","Anchovies","Mackerel","Trout","Cod","Pike","Salmon","Tuna"]
+#define VAR_FOOD_FISH_FOODS_HIDE []
 
 /*@ define:input:food
 type: enumlist
@@ -9840,7 +9840,7 @@ enum: [
   "Dragon*"
 ]
 */
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*","Iron*","Steel*","Black*","Mithril*"]
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE []
 
 
 /*@ define:input:metal_equipment
@@ -11095,7 +11095,7 @@ enum: [
   }
 ]
 */
-#define VAR_GAUNTLET_TOOLS_HIDE ["* sceptre","* harpoon","* axe","* pickaxe","Pestle and mortar"]
+#define VAR_GAUNTLET_TOOLS_HIDE []
 
 /*@ define:input:gauntlet
 type: enumlist
