@@ -4007,7 +4007,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_STANDARD_ARROWS_HIDE []
+#define VAR_AMMO_STANDARD_ARROWS_HIDE ["Bronze*","Iron*","Steel*"]
 
 apply (name:CONST_AMMO_STANDARD_ARROWS_LIST && name:VAR_AMMO_STANDARD_ARROWS_HIDE) {
     hidden = true;
@@ -4067,7 +4067,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BRUTAL_ARROWS_HIDE []
+#define VAR_AMMO_BRUTAL_ARROWS_HIDE ["Bronze brutal","Iron brutal","Steel brutal","Black brutal"]
 
 apply (name:CONST_AMMO_BRUTAL_ARROWS_LIST && name:VAR_AMMO_BRUTAL_ARROWS_HIDE) {
     hidden = true;
@@ -4112,7 +4112,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_SPECIAL_ARROWS_HIDE []
+#define VAR_AMMO_SPECIAL_ARROWS_HIDE ["Training Arrow","Ogre Arrow","Ice Arrow"]
 
 apply (name:CONST_AMMO_SPECIAL_ARROWS_LIST && name:VAR_AMMO_SPECIAL_ARROWS_HIDE) {
     hidden = true;
@@ -4186,7 +4186,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_DARTS_HIDE []
+#define VAR_AMMO_DARTS_HIDE ["Bronze dart*","Iron dart*","Steel dart*","Black dart*","Mithril dart*"]
 
 apply (name:CONST_AMMO_DARTS_LIST && name:VAR_AMMO_DARTS_HIDE) {
     hidden = true;
@@ -4250,7 +4250,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_JAVELINS_HIDE []
+#define VAR_AMMO_JAVELINS_HIDE ["Bronze javelin*","Iron javelin*","Steel javelin*","Mithril javelin*"]
 
 apply (name:CONST_AMMO_JAVELINS_LIST && name:VAR_AMMO_JAVELINS_HIDE) {
     hidden = true;
@@ -4319,7 +4319,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_BOLTS_HIDE []
+#define VAR_AMMO_BOLTS_HIDE ["Bronze bolts*","Blurite bolts*","Silver bolts*","Iron bolts*","Steel bolts*","Mithril bolts*"]
 
 apply (name:CONST_AMMO_BOLTS_LIST && name:VAR_AMMO_BOLTS_HIDE) {
     hidden = true;
@@ -4534,7 +4534,7 @@ enum: [
   }
 ]
 */
-#define VAR_AMMO_SPECIAL_BOLTS_HIDE []
+#define VAR_AMMO_SPECIAL_BOLTS_HIDE ["Bone bolts"]
 
 apply (name:CONST_AMMO_SPECIAL_BOLTS_LIST && name:VAR_AMMO_SPECIAL_BOLTS_HIDE) {
     hidden = true;
@@ -4902,91 +4902,91 @@ type: number
 label: Law rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_LAW_RUNE_MIN_QUANTITY 1
+#define VAR_LAW_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Death rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_DEATH_RUNE_MIN_QUANTITY 1
+#define VAR_DEATH_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Sunfire rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 1
+#define VAR_SUNFIRE_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Astral rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_ASTRAL_RUNE_MIN_QUANTITY 1
+#define VAR_ASTRAL_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Blood rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_BLOOD_RUNE_MIN_QUANTITY 1
+#define VAR_BLOOD_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Soul rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_SOUL_RUNE_MIN_QUANTITY 1
+#define VAR_SOUL_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Wrath rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_WRATH_RUNE_MIN_QUANTITY 1
+#define VAR_WRATH_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Mist rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_MIST_RUNE_MIN_QUANTITY 1
+#define VAR_MIST_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Dust rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_DUST_RUNE_MIN_QUANTITY 1
+#define VAR_DUST_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Mud rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_MUD_RUNE_MIN_QUANTITY 1
+#define VAR_MUD_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Smoke rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_SMOKE_RUNE_MIN_QUANTITY 1
+#define VAR_SMOKE_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Steam rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_STEAM_RUNE_MIN_QUANTITY 1
+#define VAR_STEAM_RUNE_MIN_QUANTITY 3
 
 /*@ define:input:runes
 type: number
 label: Lava rune minimum quantity
 group: Runes Filtering
 */
-#define VAR_LAVA_RUNE_MIN_QUANTITY 1
+#define VAR_LAVA_RUNE_MIN_QUANTITY 3
 
 
 // waiting on 1.6
@@ -9840,7 +9840,7 @@ enum: [
   "Dragon*"
 ]
 */
-#define VAR_METAL_EQUIPMENT_TIERS_HIDE []
+#define VAR_METAL_EQUIPMENT_TIERS_HIDE ["Bronze*","Iron*"]
 
 
 /*@ define:input:metal_equipment
